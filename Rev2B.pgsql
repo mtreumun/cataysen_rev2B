@@ -109,3 +109,5 @@ UPDATE catastroaysen.pba_v2
 SET id_estruc='04', estructura= 'Achaparrado', uso_tierra= concat(subuso,' ',estructura,' ',cobertura) , r_etapa_2b = 'PD', estado = 'Coinciden'
 
 WHERE (subgrupo_e = 'Adulto-Renoval-Mixto' or subgrupo_e = 'Renoval-Mixto' or subgrupo_e = 'Adulto-Mixto') and subgrupo_r = 'Achaparrado-Mixto'  and estado is null;
+
+-- Actualizar
